@@ -80,7 +80,7 @@ def merge_sort(items, key=lambda x: x):
     left = merge_sort(left, key)
     right = merge_sort(right, key)
 
-    i,j = 0
+    i, j = 0, 0
     while (i < len(left) and j < len(right)):
         if (key(left[i]) > key(right[j])):
             new_list.append(right[j])
@@ -88,10 +88,9 @@ def merge_sort(items, key=lambda x: x):
         else:
             new_list.append(left[i])
             i += 1
-    new_list.append(left[i:])
-    new_list.append(right[j:])
+    new_list.extend(left[i:])
+    new_list.extend(right[j:])
     return new_list
-    #raise NotImplementedError("Part 2: merge_sort")
 
 
 def lower_bound(sorted_items, target, key=lambda x: x):
@@ -103,7 +102,18 @@ def lower_bound(sorted_items, target, key=lambda x: x):
     Example: [1, 3, 3, 5, 9] with target 3 -> 1,  target 4 -> 3,  target 10 -> 5
     Target: O(log n).  Keep two pointers lo, hi and halve the range each step.
     """
-    raise NotImplementedError("Part 2: lower_bound")
+    lo = 0
+    hi = len(sorted_items)
+    mid = hi//2
+
+    while (hi - lo != 0):
+        if (key(sorted_items[mid]) >= target):
+            hi = mid
+        else:
+            lo = mid + 1
+        mid = ((hi - lo)//2) + lo
+
+    return mid
 
 
 # =====================================================================
