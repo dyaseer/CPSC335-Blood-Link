@@ -1,0 +1,760 @@
+{
+ "nodes": [
+  {
+   "id": "N00",
+   "name": "Regional Blood Center",
+   "kind": "blood center",
+   "x": 6.0,
+   "y": 4.5
+  },
+  {
+   "id": "N01",
+   "name": "St. Clara Medical",
+   "kind": "hospital",
+   "x": 11.48,
+   "y": 2.61
+  },
+  {
+   "id": "N02",
+   "name": "Mercy General",
+   "kind": "hospital",
+   "x": 5.12,
+   "y": 0.22
+  },
+  {
+   "id": "N03",
+   "name": "Valley Children's",
+   "kind": "hospital",
+   "x": 6.1,
+   "y": 7.81
+  },
+  {
+   "id": "N04",
+   "name": "Coastline Hospital",
+   "kind": "hospital",
+   "x": 5.7,
+   "y": 1.37
+  },
+  {
+   "id": "N05",
+   "name": "Northridge Community",
+   "kind": "hospital",
+   "x": 8.52,
+   "y": 1.38
+  },
+  {
+   "id": "N06",
+   "name": "Lakeside Trauma Center",
+   "kind": "hospital",
+   "x": 8.4,
+   "y": 2.97
+  },
+  {
+   "id": "N07",
+   "name": "Pine Grove Clinic",
+   "kind": "hospital",
+   "x": 5.53,
+   "y": 3.4
+  },
+  {
+   "id": "N08",
+   "name": "Westview Medical",
+   "kind": "hospital",
+   "x": 1.5,
+   "y": 5.25
+  },
+  {
+   "id": "N09",
+   "name": "Harbor Regional",
+   "kind": "hospital",
+   "x": 0.58,
+   "y": 0.02
+  },
+  {
+   "id": "N10",
+   "name": "Sierra Vista Hospital",
+   "kind": "hospital",
+   "x": 10.76,
+   "y": 1.55
+  },
+  {
+   "id": "N11",
+   "name": "Oak Park Surgical",
+   "kind": "hospital",
+   "x": 1.36,
+   "y": 4.77
+  },
+  {
+   "id": "N12",
+   "name": "Bayfront Medical",
+   "kind": "hospital",
+   "x": 10.59,
+   "y": 0.3
+  },
+  {
+   "id": "N13",
+   "name": "Canyon View Hospital",
+   "kind": "hospital",
+   "x": 6.67,
+   "y": 5.76
+  },
+  {
+   "id": "N14",
+   "name": "Riverside Memorial",
+   "kind": "hospital",
+   "x": 5.28,
+   "y": 8.14
+  },
+  {
+   "id": "N15",
+   "name": "Summit Health",
+   "kind": "hospital",
+   "x": 6.55,
+   "y": 3.97
+  },
+  {
+   "id": "N16",
+   "name": "Desert Bloom Hospital",
+   "kind": "hospital",
+   "x": 7.51,
+   "y": 5.24
+  },
+  {
+   "id": "N17",
+   "name": "Seaside Urgent Care",
+   "kind": "hospital",
+   "x": 10.8,
+   "y": 0.76
+  }
+ ],
+ "edges": [
+  {
+   "u": "N00",
+   "v": "N15",
+   "minutes": 3,
+   "cost": 41
+  },
+  {
+   "u": "N00",
+   "v": "N07",
+   "minutes": 3,
+   "cost": 64
+  },
+  {
+   "u": "N00",
+   "v": "N13",
+   "minutes": 5,
+   "cost": 61
+  },
+  {
+   "u": "N01",
+   "v": "N10",
+   "minutes": 5,
+   "cost": 72
+  },
+  {
+   "u": "N01",
+   "v": "N17",
+   "minutes": 5,
+   "cost": 83
+  },
+  {
+   "u": "N01",
+   "v": "N12",
+   "minutes": 8,
+   "cost": 139
+  },
+  {
+   "u": "N02",
+   "v": "N04",
+   "minutes": 4,
+   "cost": 83
+  },
+  {
+   "u": "N02",
+   "v": "N07",
+   "minutes": 9,
+   "cost": 162
+  },
+  {
+   "u": "N02",
+   "v": "N05",
+   "minutes": 9,
+   "cost": 212
+  },
+  {
+   "u": "N03",
+   "v": "N14",
+   "minutes": 5,
+   "cost": 38
+  },
+  {
+   "u": "N03",
+   "v": "N13",
+   "minutes": 6,
+   "cost": 100
+  },
+  {
+   "u": "N03",
+   "v": "N16",
+   "minutes": 9,
+   "cost": 143
+  },
+  {
+   "u": "N04",
+   "v": "N07",
+   "minutes": 6,
+   "cost": 102
+  },
+  {
+   "u": "N04",
+   "v": "N15",
+   "minutes": 7,
+   "cost": 172
+  },
+  {
+   "u": "N05",
+   "v": "N06",
+   "minutes": 5,
+   "cost": 93
+  },
+  {
+   "u": "N05",
+   "v": "N10",
+   "minutes": 7,
+   "cost": 132
+  },
+  {
+   "u": "N05",
+   "v": "N12",
+   "minutes": 6,
+   "cost": 111
+  },
+  {
+   "u": "N06",
+   "v": "N15",
+   "minutes": 7,
+   "cost": 115
+  },
+  {
+   "u": "N06",
+   "v": "N16",
+   "minutes": 8,
+   "cost": 115
+  },
+  {
+   "u": "N07",
+   "v": "N15",
+   "minutes": 6,
+   "cost": 52
+  },
+  {
+   "u": "N08",
+   "v": "N11",
+   "minutes": 2,
+   "cost": 34
+  },
+  {
+   "u": "N07",
+   "v": "N08",
+   "minutes": 14,
+   "cost": 184
+  },
+  {
+   "u": "N00",
+   "v": "N08",
+   "minutes": 13,
+   "cost": 240
+  },
+  {
+   "u": "N02",
+   "v": "N09",
+   "minutes": 12,
+   "cost": 205
+  },
+  {
+   "u": "N09",
+   "v": "N11",
+   "minutes": 12,
+   "cost": 275
+  },
+  {
+   "u": "N04",
+   "v": "N09",
+   "minutes": 14,
+   "cost": 348
+  },
+  {
+   "u": "N10",
+   "v": "N17",
+   "minutes": 5,
+   "cost": 46
+  },
+  {
+   "u": "N10",
+   "v": "N12",
+   "minutes": 4,
+   "cost": 60
+  },
+  {
+   "u": "N07",
+   "v": "N11",
+   "minutes": 13,
+   "cost": 255
+  },
+  {
+   "u": "N00",
+   "v": "N11",
+   "minutes": 12,
+   "cost": 285
+  },
+  {
+   "u": "N12",
+   "v": "N17",
+   "minutes": 3,
+   "cost": 33
+  },
+  {
+   "u": "N13",
+   "v": "N16",
+   "minutes": 3,
+   "cost": 61
+  },
+  {
+   "u": "N13",
+   "v": "N15",
+   "minutes": 7,
+   "cost": 94
+  },
+  {
+   "u": "N13",
+   "v": "N14",
+   "minutes": 8,
+   "cost": 139
+  },
+  {
+   "u": "N14",
+   "v": "N16",
+   "minutes": 9,
+   "cost": 216
+  },
+  {
+   "u": "N15",
+   "v": "N16",
+   "minutes": 5,
+   "cost": 98
+  },
+  {
+   "u": "N00",
+   "v": "N16",
+   "minutes": 4,
+   "cost": 96
+  }
+ ],
+ "root": "N00",
+ "records": [
+  {
+   "barcode": "BU-49968",
+   "node": "N15",
+   "blood_type": "O+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 5,
+   "expires_in_hours": 56,
+   "lot": "D5540",
+   "label": "PLATELETS|O+|LOT D5540|EXP+56H"
+  },
+  {
+   "barcode": "BU-12463",
+   "node": "N16",
+   "blood_type": "AB+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 6,
+   "expires_in_hours": 27,
+   "lot": "E8812",
+   "label": "PLASMA|AB+|LOT E8812|EXP+27H"
+  },
+  {
+   "barcode": "BU-23434",
+   "node": "N11",
+   "blood_type": "A+",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 12,
+   "expires_in_hours": 30,
+   "lot": "E8812",
+   "label": "REDCELLS|A+|LOT E8812|EXP+30H"
+  },
+  {
+   "barcode": "BU-95133",
+   "node": "N14",
+   "blood_type": "A+",
+   "product": "Whole blood",
+   "cooler_slots": 4,
+   "patients_helped": 16,
+   "expires_in_hours": 114,
+   "lot": "E8812",
+   "label": "WHOLEBLOOD|A+|LOT E8812|EXP+114H"
+  },
+  {
+   "barcode": "BU-86049",
+   "node": "N10",
+   "blood_type": "O+",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 6,
+   "expires_in_hours": 15,
+   "lot": "E8812",
+   "label": "REDCELLS|O+|LOT E8812|EXP+15H"
+  },
+  {
+   "barcode": "BU-49177",
+   "node": "N10",
+   "blood_type": "O+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 4,
+   "expires_in_hours": 54,
+   "lot": "A7731",
+   "label": "PLASMA|O+|LOT A7731|EXP+54H"
+  },
+  {
+   "barcode": "BU-24676",
+   "node": "N08",
+   "blood_type": "O-",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 23,
+   "expires_in_hours": 53,
+   "lot": "D5540",
+   "label": "PLATELETS|O-|LOT D5540|EXP+53H"
+  },
+  {
+   "barcode": "BU-93751",
+   "node": "N06",
+   "blood_type": "A+",
+   "product": "Whole blood",
+   "cooler_slots": 4,
+   "patients_helped": 5,
+   "expires_in_hours": 115,
+   "lot": "A7731",
+   "label": "WHOLEBLOOD|A+|LOT A7731|EXP+115H"
+  },
+  {
+   "barcode": "BU-54711",
+   "node": "N15",
+   "blood_type": "A+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 5,
+   "expires_in_hours": 88,
+   "lot": "D5540",
+   "label": "PLATELETS|A+|LOT D5540|EXP+88H"
+  },
+  {
+   "barcode": "BU-81727",
+   "node": "N03",
+   "blood_type": "A-",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 4,
+   "expires_in_hours": 66,
+   "lot": "C1209",
+   "label": "PLASMA|A-|LOT C1209|EXP+66H"
+  },
+  {
+   "barcode": "BU-74418",
+   "node": "N10",
+   "blood_type": "A+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 16,
+   "expires_in_hours": 16,
+   "lot": "E8812",
+   "label": "PLATELETS|A+|LOT E8812|EXP+16H"
+  },
+  {
+   "barcode": "BU-39612",
+   "node": "N15",
+   "blood_type": "O+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 3,
+   "expires_in_hours": 50,
+   "lot": "B2208",
+   "label": "PLASMA|O+|LOT B2208|EXP+50H"
+  },
+  {
+   "barcode": "BU-83524",
+   "node": "N13",
+   "blood_type": "O-",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 21,
+   "expires_in_hours": 98,
+   "lot": "A7731",
+   "label": "PLATELETS|O-|LOT A7731|EXP+98H"
+  },
+  {
+   "barcode": "BU-28077",
+   "node": "N01",
+   "blood_type": "O+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 20,
+   "expires_in_hours": 11,
+   "lot": "E8812",
+   "label": "PLATELETS|O+|LOT E8812|EXP+11H"
+  },
+  {
+   "barcode": "BU-95731",
+   "node": "N09",
+   "blood_type": "O-",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 24,
+   "expires_in_hours": 66,
+   "lot": "F3007",
+   "label": "PLATELETS|O-|LOT F3007|EXP+66H"
+  },
+  {
+   "barcode": "BU-66155",
+   "node": "N03",
+   "blood_type": "A+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 23,
+   "expires_in_hours": 23,
+   "lot": "B2208",
+   "label": "PLATELETS|A+|LOT B2208|EXP+23H"
+  },
+  {
+   "barcode": "BU-37467",
+   "node": "N04",
+   "blood_type": "AB+",
+   "product": "Whole blood",
+   "cooler_slots": 4,
+   "patients_helped": 16,
+   "expires_in_hours": 72,
+   "lot": "E8812",
+   "label": "WHOLEBLOOD|AB+|LOT E8812|EXP+72H"
+  },
+  {
+   "barcode": "BU-76120",
+   "node": "N14",
+   "blood_type": "O-",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 15,
+   "expires_in_hours": 112,
+   "lot": "E8812",
+   "label": "REDCELLS|O-|LOT E8812|EXP+112H"
+  },
+  {
+   "barcode": "BU-53612",
+   "node": "N12",
+   "blood_type": "O+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 2,
+   "expires_in_hours": 33,
+   "lot": "C1209",
+   "label": "PLASMA|O+|LOT C1209|EXP+33H"
+  },
+  {
+   "barcode": "BU-42207",
+   "node": "N13",
+   "blood_type": "A+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 6,
+   "expires_in_hours": 9,
+   "lot": "F3007",
+   "label": "PLASMA|A+|LOT F3007|EXP+9H"
+  },
+  {
+   "barcode": "BU-28092",
+   "node": "N08",
+   "blood_type": "O+",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 9,
+   "expires_in_hours": 74,
+   "lot": "C1209",
+   "label": "REDCELLS|O+|LOT C1209|EXP+74H"
+  },
+  {
+   "barcode": "BU-80381",
+   "node": "N11",
+   "blood_type": "B-",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 7,
+   "expires_in_hours": 18,
+   "lot": "B2208",
+   "label": "PLASMA|B-|LOT B2208|EXP+18H"
+  },
+  {
+   "barcode": "BU-62030",
+   "node": "N12",
+   "blood_type": "O+",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 12,
+   "expires_in_hours": 47,
+   "lot": "E8812",
+   "label": "REDCELLS|O+|LOT E8812|EXP+47H"
+  },
+  {
+   "barcode": "BU-38409",
+   "node": "N11",
+   "blood_type": "A+",
+   "product": "Whole blood",
+   "cooler_slots": 4,
+   "patients_helped": 4,
+   "expires_in_hours": 28,
+   "lot": "A7731",
+   "label": "WHOLEBLOOD|A+|LOT A7731|EXP+28H"
+  },
+  {
+   "barcode": "BU-92892",
+   "node": "N08",
+   "blood_type": "B-",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 25,
+   "expires_in_hours": 81,
+   "lot": "A7731",
+   "label": "PLATELETS|B-|LOT A7731|EXP+81H"
+  },
+  {
+   "barcode": "BU-56465",
+   "node": "N02",
+   "blood_type": "B+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 7,
+   "expires_in_hours": 72,
+   "lot": "D5540",
+   "label": "PLASMA|B+|LOT D5540|EXP+72H"
+  },
+  {
+   "barcode": "BU-17556",
+   "node": "N11",
+   "blood_type": "O+",
+   "product": "Platelets",
+   "cooler_slots": 5,
+   "patients_helped": 10,
+   "expires_in_hours": 90,
+   "lot": "C1209",
+   "label": "PLATELETS|O+|LOT C1209|EXP+90H"
+  },
+  {
+   "barcode": "BU-96787",
+   "node": "N16",
+   "blood_type": "A+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 10,
+   "expires_in_hours": 29,
+   "lot": "A7731",
+   "label": "PLASMA|A+|LOT A7731|EXP+29H"
+  },
+  {
+   "barcode": "BU-87068",
+   "node": "N08",
+   "blood_type": "A+",
+   "product": "Red cells",
+   "cooler_slots": 3,
+   "patients_helped": 9,
+   "expires_in_hours": 41,
+   "lot": "D5540",
+   "label": "REDCELLS|A+|LOT D5540|EXP+41H"
+  },
+  {
+   "barcode": "BU-10287",
+   "node": "N04",
+   "blood_type": "A+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 8,
+   "expires_in_hours": 114,
+   "lot": "E8812",
+   "label": "PLASMA|A+|LOT E8812|EXP+114H"
+  },
+  {
+   "barcode": "BU-39612",
+   "node": "N15",
+   "blood_type": "O+",
+   "product": "Plasma",
+   "cooler_slots": 2,
+   "patients_helped": 3,
+   "expires_in_hours": 50,
+   "lot": "B2208",
+   "label": "PLASMA|O+|LOT B2208|EXP+50H"
+  }
+ ],
+ "messages": [
+  {
+   "id": "BU-49968",
+   "text": "PLATELETS|O+|LOT D5540|EXP+56H"
+  },
+  {
+   "id": "BU-12463",
+   "text": "PLASMA|AB+|LOT E8812|EXP+27H"
+  },
+  {
+   "id": "BU-23434",
+   "text": "REDCELLS|A+|LOT E8812|EXP+30H"
+  },
+  {
+   "id": "BU-95133",
+   "text": "WHOLEBLOOD|A+|LOT E8812|EXP+114H"
+  },
+  {
+   "id": "BU-86049",
+   "text": "REDCELLS|O+|LOT E8812|EXP+15H"
+  },
+  {
+   "id": "BU-49177",
+   "text": "PLASMA|O+|LOT A7731|EXP+54H"
+  },
+  {
+   "id": "BU-24676",
+   "text": "PLATELETS|O-|LOT D5540|EXP+53H"
+  },
+  {
+   "id": "BU-93751",
+   "text": "WHOLEBLOOD|A+|LOT A7731|EXP+115H"
+  },
+  {
+   "id": "BU-54711",
+   "text": "PLATELETS|A+|LOT D5540|EXP+88H"
+  },
+  {
+   "id": "BU-81727",
+   "text": "PLASMA|A-|LOT C1209|EXP+66H"
+  },
+  {
+   "id": "BU-74418",
+   "text": "PLATELETS|A+|LOT E8812|EXP+16H"
+  },
+  {
+   "id": "BU-39612",
+   "text": "PLASMA|O+|LOT B2208|EXP+50H"
+  },
+  {
+   "id": "BU-83524",
+   "text": "PLATELETS|O-|LOT A7731|EXP+98H"
+  },
+  {
+   "id": "BU-28077",
+   "text": "PLATELETS|O+|LOT E8812|EXP+11H"
+  }
+ ],
+ "keywords": [
+  "LOT A7731",
+  "LOT C1209"
+ ]
+}
