@@ -49,7 +49,6 @@ def build_index(records, key):
     index = {}
     for record in records:
         if index.get(record[key]) != None:
-            print("test lol")
             duplicates.append(record[key])
             continue
         index[record[key]] = record
