@@ -48,7 +48,7 @@ def build_index(records, key):
     duplicates = []
     index = {}
     for record in records:
-        if index.get(record[key]) != None:
+        if index.get(record[key]):
             duplicates.append(record[key])
             continue
         index[record[key]] = record
@@ -69,7 +69,29 @@ def merge_sort(items, key=lambda x: x):
               (when the keys are equal, take from the LEFT half -> stable)
     Target: O(n log n).
     """
-    raise NotImplementedError("Part 2: merge_sort")
+    #base case
+    if len(items) <= 1:
+        return items
+
+    left = items[:(len(items)//2)]
+    right = items[(len(items)//2):]
+    new_list = []
+
+    left = merge_sort(left, key)
+    right = merge_sort(right, key)
+
+    i,j = 0
+    while (i < len(left) and j < len(right)):
+        if (key(left[i]) > key(right[j])):
+            new_list.append(right[j])
+            j += 1
+        else:
+            new_list.append(left[i])
+            i += 1
+    new_list.append(left[i:])
+    new_list.append(right[j:])
+    return new_list
+    #raise NotImplementedError("Part 2: merge_sort")
 
 
 def lower_bound(sorted_items, target, key=lambda x: x):
