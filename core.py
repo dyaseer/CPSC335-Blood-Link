@@ -138,18 +138,52 @@ class MinHeap:
 
     def push(self, priority, item):
         """Add an item. Append at the end, then 'bubble up'. O(log n)."""
-        raise NotImplementedError("Part 3: MinHeap.push")
+        entry = (priority, self._count, item)
+        self._count += 1
+        self._a.append(entry)
+
+        i = len(self._a) - 1
+        while i > 0:
+            parent = (i - 1)//2
+            if (self._a[i][:2] < self._a[parent][:2]):
+                self._a[i], self._a[parent] = self._a[parent], self._a[i]
+                i = parent
+            else:
+                break
 
     def peek(self):
         """Return (priority, item) with the smallest priority without removing it.
         Raise IndexError if the heap is empty. O(1)."""
-        raise NotImplementedError("Part 3: MinHeap.peek")
+        if self._a == []:
+            raise IndexError("The heap is empty")
+        top = self._a[0]
+        return (top[0], top[2])
 
     def pop(self):
         """Remove and return (priority, item) with the smallest priority.
         Move the last entry to the top, then 'bubble down'.
         Raise IndexError if the heap is empty. O(log n)."""
-        raise NotImplementedError("Part 3: MinHeap.pop")
+        if self._a == []:
+            raise IndexError("The heap is empty")
+        i = 0
+        lchild, rchild = i * 2 + 1, i * 2 + 2
+        self._a[i], self._a[len(self._a) - 1] = self._a[len(self._a) - 1], self._a[i]
+        popped = self._a.pop()
+        while (lchild < len(self._a)):
+            if (rchild < len(self._a) and self._a[rchild][:2] < self._a[lchild][:2]):
+                smaller = rchild
+            else:
+                smaller = lchild
+
+            if (self._a[i] > self._a[smaller]):
+                self._a[i], self._a[smaller] = self._a[smaller], self._a[i]
+                i = smaller
+            else:
+                break
+
+            lchild, rchild = i * 2 + 1, i * 2 + 2
+        return (popped[0], popped[2])
+    
 
 
 # =====================================================================
